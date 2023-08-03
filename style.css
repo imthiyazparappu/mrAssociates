@@ -1,6 +1,6 @@
 .urban-logo {
-    width: 100px;
-    height: 100px;   
+    width: 60px;
+    height: 60px;   
 }
 
 #hair-boutique {
@@ -10,6 +10,14 @@
 }
 
 .our-services {
+    font-family: 'playfair',serif;
+}
+
+.offer-tag {
+    font-family: 'playfair',serif;
+}
+
+.location {
     font-family: 'playfair',serif;
 }
 
@@ -85,5 +93,6 @@ html {
 #copyright {
     font-size: 10px;
 }
+
 
 
