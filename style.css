@@ -141,8 +141,17 @@ html {
     border-radius: 2rem;
 }
 
+#ban-div{
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
 .ban img:hover{
-   scale: 1.20;
+   scale: 1.10;
    transition: 0.2s;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
