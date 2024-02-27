@@ -1,88 +1,59 @@
-.inlight-logo {
-    width: 170px;
-    height: 60px;   
+.mr-logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;  
+    margin-left: 1rem;
 }
 
 #menu {
-    color: rgba(0, 4, 255, 0.822);
+    color: yellow;
+    font-weight: bold;
+}
+
+body{
+    background-color: #000;
+    color: white;
 }
 
 #menu:hover {
-    color: white;
+    color: black;
 }
 
+header{
+    background-color: #000;
+}
 
 .nav-link:hover{
-    background-color: rgba(0, 4, 255, 0.822);
+    background-color: yellow;
     width: 100px;
     text-align: center;
     border-radius: 10px;
-    color: white;
+    color: black;
+    transition: all 0.3s;
+    transform: scale(1.1);
 }
 
-
-#hair-boutique {
+#car-services{
+    width: 25rem;
+    height: 30rem;
     border-radius: 5rem;
-    text-align: center;
-    margin-top: 2rem;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.our-services {
-    font-family: 'playfair',serif;
-}
-
-.offer-tag {
-    font-family: 'playfair',serif;
-}
-
-.location {
-    font-family: 'playfair',serif;
-    color: rgb(0, 80, 0);
-}
-
-.nav-link {
-    font-size: 1rem;
-    font-weight: bold;
-    font-family:sans-serif;
-}
-
-.insta {
-    font-family: 'playfair',serif;
-}
-
-.service-desc {
-    font-size: larger;
-}
-
-.services {
-    color:  rgba(0, 2, 141, 0.822);
-    margin: 1rem;
-    font-family: 'playfair',serif;
-}
-
-#view-price {
+#view-price{
+    background-color: green;
     color: white;
-    background-color: rgba(0, 4, 255, 0.822);
+    font-weight: bolder;
     border-radius: 2rem;
-    padding: 1rem;
-    margin: 3rem;
-}
-
-#view-price2 {
-    color: white;
-    background-color: black;
-    border-radius: 0%;
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin: 1rem;
-    font-weight: bold;
 }
 
 form {
-    background-color: rgba(0, 197, 0, 0.295);
+    background-color: rgba(255, 255, 0, 0.637);
     padding-top: 3rem;
     padding-bottom: 3rem;
+    border-radius: 5rem;
 }
 
 .form-control {
@@ -109,12 +80,13 @@ html {
 
 #copyright {
     font-size: 10px;
+    color: grey;
 }
 
 
 /* review style */
 .review {
-    border: 1px solid #ddd;
+    border: 1px solid;
     padding: 15px;
     margin-bottom: 20px;
     height: 300px;
@@ -122,23 +94,35 @@ html {
     scrollbar-width: none;
     border-radius: 30px;
     border: 3px solid;
-    border-color: blue;
+    border-color: white;
     
+  }
+
+  span{
+    color: yellow;
   }
   .review h3 {
     font-size: 26px;
     margin-top: 0;
-    color: green;
+    color: yellow;
     font-weight: bold;
   }
   .review p {
     margin-bottom: 0;
     font-weight: lighter;
   }
-  
-.ban img{
-    height: 14rem;
-    border-radius: 2rem;
+ 
+  .location{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-weight: bolder;
+    border-style: none;
+    border-radius: 1rem;
+  }
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 #ban-div{
@@ -146,12 +130,8 @@ html {
     scrollbar-width: none;
 }
 
-.ban img:hover{
-   scale: 1.10;
-   transition: 0.2s;
-}
-
 .flex {
     display: flex;
     flex-wrap: nowrap;
 }
+
