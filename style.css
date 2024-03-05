@@ -5,6 +5,10 @@
     margin-left: 1rem;
 }
 
+.container{
+    margin:auto;
+}
+
 #menu {
     color: yellow;
     font-weight: bold;
